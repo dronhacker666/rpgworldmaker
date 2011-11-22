@@ -1,0 +1,37 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+#top_panel{
+	width: 100%;
+	height: 50px;
+	background: #999;
+}
+
+#left_panel{
+	position: absolute;
+	width: 300px;
+	top: 50px;
+	bottom: 200px;
+	background: #999;
+	overflow-y: scroll;
+}
+
+#left_bottom_panel{
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	bottom: 0px;
+	border-top: 1px solid #000;
+	background: #999;
+}
+
+#screen_panel{
+	position: absolute;
+	left: 300px;
+	right: 0px;
+	top: 50px;
+	bottom: 0px;
+	overflow: scroll;
+}
